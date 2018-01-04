@@ -1,0 +1,58 @@
+.log-in-container{
+  background-color: #fdfdfd;
+  width:40%;
+  margin:auto;
+
+  .log-body{
+    h1{
+      margin-bottom: 50px;
+      color:green;
+    }
+    padding: 0px 60px;
+
+    .forgot{
+      margin-top:-30px;
+      margin-bottom:40px;
+    }
+  }
+
+  .log-footer{
+    text-align: center;
+    height: 50px;
+
+    div:first-child{
+      width: 50%;
+      float:left;
+      height: 50px;
+      background-color: grey;
+      a{
+        color: white;
+        text-decoration: none;
+        display: block;
+        font-size: 18px;
+        padding-top: 12px;
+      }
+      button:focus{
+        outline:none;
+      }
+    }
+
+    div:last-child{
+      width: 50%;
+      float:left;
+      height: 50px;
+      background-color: green;
+      button{
+        height: 50px;
+        background-color: green;
+        border-color: green;
+        font-size:18px;
+        color:white;
+      }
+      button:focus{
+        outline:none;
+      }
+    }
+  }
+
+}

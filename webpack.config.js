@@ -22,10 +22,7 @@ module.exports = {
                 test: /\.js$/,
                 exclude: /(node_modules)/,
                 use: {
-                    loader: 'babel-loader',
-                    options: {
-                        presets: ['es2015','react']
-                    }
+                    loader: 'babel-loader'
                 }
             },
             {
@@ -55,6 +52,7 @@ module.exports = {
     devServer: {
         historyApiFallback: true
     },
+    devtool: 'cheap-module-eval-source-map',
     plugins: [
         new Webpack.ProvidePlugin({
             $: 'jquery',
